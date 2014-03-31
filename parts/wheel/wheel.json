@@ -1,0 +1,38 @@
+{
+    "part": "wheel hub",
+    "description": "Central wheel hub.",
+
+    "machine": "/machines/sherline-4axis.json",
+    
+    "material": "aluminium",
+    "stock": {
+        "stock": "cone",
+        "p1": {"x":0, "y":0, "z":0},
+        "p2": {"x":50, "y":50, "z":10},
+        "r1": 50,
+        "r2": 50,
+        "slices": 32
+    },
+    
+    /* Each operation modifies the stock of the last operation.*/
+    "operations": [
+        {
+            /* If not specified here machine defaults to the part
+             * level machine object, else the project level machine
+             * object. */
+            "machine": "/machines/sherline-lathe.json",
+            "stock": {
+                "rotate": {"x":0, "y":0, "z":0},
+                "translate": {"x":0, "y":0, "z":0},
+            },
+            "tool": 1,
+            "operation": "turn",
+            "turn": {
+                
+            }
+        },
+        {
+            // something else
+        }
+    ]
+}
