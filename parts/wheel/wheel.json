@@ -2,7 +2,7 @@
     "part": "wheel hub",
     "description": "Central wheel hub.",
 
-    "machine": "/machines/sherline-4axis.json",
+    "machine": "/machines/sherline-lathe.json",
     
     "material": "aluminium-T6061",
     "stock": {
