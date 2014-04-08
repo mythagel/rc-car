@@ -4,3 +4,6 @@
 [submodule "tools"]
 	path = tools
 	url = git@github.com:mythagel/declcam-tools.git
+[submodule "ops"]
+	path = ops
+	url = git@github.com:mythagel/declcam-ops.git
