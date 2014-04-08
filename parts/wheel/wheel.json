@@ -4,7 +4,7 @@
 
     "machine": "/machines/sherline-4axis.json",
     
-    "material": "aluminium",
+    "material": "aluminium-T6061",
     "stock": {
         "stock": "cone",
         "p1": {"x":0, "y":0, "z":0},
@@ -17,6 +17,7 @@
     /* Each operation modifies the stock of the last operation.*/
     "operations": [
         {
+            "name": "Rough Turn",
             /* If not specified here machine defaults to the part
              * level machine object, else the project level machine
              * object. */
@@ -25,10 +26,9 @@
                 "rotate": {"x":0, "y":0, "z":0},
                 "translate": {"x":0, "y":0, "z":0},
             },
-            "tool": 1,
             "operation": "turn",
             "turn": {
-                
+                "tool": 5,
             }
         },
         {
