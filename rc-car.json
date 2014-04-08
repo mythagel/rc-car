@@ -12,7 +12,7 @@
     // Default machine - optional & can be overridden.
     "machine": "/machines/sherline-4axis.json",
 
-    // Default tool table - optional * can be overridden.
+    // Default tool table - optional & can be overridden.
     "tool-table": {
         "1": "/tools/4mm-end-mill.json",
         "5": "/tools/4mm-end-mill.json"
