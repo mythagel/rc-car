@@ -1,9 +1,9 @@
 [submodule "machines"]
 	path = machines
-	url = git@github.com:mythagel/declcam-machines.git
+	url = https://github.com/mythagel/declcam-machines.git
 [submodule "tools"]
 	path = tools
-	url = git@github.com:mythagel/declcam-tools.git
+	url = https://github.com/mythagel/declcam-tools.git
 [submodule "ops"]
 	path = ops
-	url = git@github.com:mythagel/declcam-ops.git
+	url = https://github.com/mythagel/declcam-ops.git
