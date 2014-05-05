@@ -2,9 +2,14 @@
     "part": "Upper suspension arm",
     "description": "L&R Front & Rear Upper suspension arm.",
 
-    "machine": "/machines/sherline-4axis.json",
+    // May be reference to object by string ID, or (if object) an inline decl.
+    "machine": "Sherline 4-Axis Mill",
+    "tool-table": {
+        "1": "4mm End Mill",
+        "5": "4mm End Mill"
+    },
     
-    "material": "aluminium-T6061",
+    "material": "Aluminium (T6061)",
     "stock": {
         "stock": "box",
         "p1": {"x":0, "y":0, "z":0},

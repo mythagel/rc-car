@@ -2,23 +2,8 @@
     "project": "rc-car",
     "description": "Illustrative example only.",
 
-    /* machine, tool-table
-     * If a string it is a reference to a file which contains the object
-     * (absolute path in string is relative to the root document. Relative paths
-     * are relative to the document in which they occur.)
-     * if an object then it's an inline decl of the property
-     */
-
-    // Default machine - optional & can be overridden.
-    "machine": "/machines/sherline-4axis.json",
-
-    // Default tool table - optional & can be overridden.
-    "tool-table": {
-        "1": "/tools/4mm-end-mill.json",
-        "5": "/tools/4mm-end-mill.json"
-    },
-
     "parts": [
-        "/parts/wheel/wheel.json"
+        "/parts/wheel/wheel.part",
+        "/parts/suspension-arm/upper.part"
     ]
 }
