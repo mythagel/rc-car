@@ -29,3 +29,14 @@ Implemented in two parts
     - Input is project file
     - loops over each part and executes part compiler
     - Manages which machine def will be used for each part.
+
+
+Notes from code moved here.
+    Referring to machine and tool references in part defs:
+    // May be reference to object by string ID, or (if object) an inline decl.
+
+    Referring to operations on stock within a single part:
+    /* Each operation modifies the stock of the last operation.*/
+
+    Referring to path to cut in profile operation:
+    // ref path node in external SVG file....

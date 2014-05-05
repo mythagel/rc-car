@@ -2,7 +2,6 @@
     "part": "Upper suspension arm",
     "description": "L&R Front & Rear Upper suspension arm.",
 
-    // May be reference to object by string ID, or (if object) an inline decl.
     "machine": "Sherline 4-Axis Mill",
     "tool-table": {
         "1": "4mm End Mill",
@@ -13,10 +12,9 @@
     "stock": {
         "stock": "box",
         "p1": {"x":0, "y":0, "z":0},
-        "p2": {"x":50, "y":50, "z":10},
+        "p2": {"x":50, "y":50, "z":10}
     },
     
-    /* Each operation modifies the stock of the last operation.*/
     "operations": [
         {
             "name": "Face",
@@ -30,15 +28,12 @@
             "name": "Lighten arm",
             "operation": "pocket",
             "pocket": {
-                // blah
             }
         },
         {
             "name": "Cut out",
             "operation": "profile",
             "profile": {
-                // define profile to cut somehow
-                // ref path node in external SVG file....
                 "path": "m164,283l40,-189l40,0l31,180l-30,1l-6,-54l-31,0l-11,59l-33,3z",
                 "depth": 9.5
             }
