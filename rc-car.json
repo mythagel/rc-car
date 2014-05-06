@@ -3,7 +3,7 @@
     "description": "Illustrative example only.",
 
     "parts": [
-        "/parts/wheel/wheel.part",
-        "/parts/suspension-arm/upper.part"
+        "parts/wheel/wheel.part",
+        "parts/suspension-arm/upper.part"
     ]
 }

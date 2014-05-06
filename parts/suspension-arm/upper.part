@@ -2,13 +2,13 @@
     "part": "Upper suspension arm",
     "description": "L&R Front & Rear Upper suspension arm.",
 
-    "machine": "Sherline 4-Axis Mill",
+    "machine": "sherline-4axis",
     "tool-table": {
-        "1": "4mm End Mill",
-        "5": "4mm End Mill"
+        "1": "4mm-end-mill",
+        "5": "4mm-end-mill"
     },
     
-    "material": "Aluminium (T6061)",
+    "material": "aluminium-t6061",
     "stock": {
         "stock": "box",
         "p1": {"x":0, "y":0, "z":0},

@@ -1,10 +1,10 @@
 {
     "part": "wheel hub",
-    "description": "Central wheel hub.",
+    "description": "4x Wheel hub.",
 
-    "machine": "/machines/sherline-lathe.json",
+    "machine": "sherline-lathe",
     
-    "material": "aluminium-T6061",
+    "material": "aluminium-t6061",
     "stock": {
         "stock": "cone",
         "p1": {"x":0, "y":0, "z":0},
@@ -21,7 +21,7 @@
             /* If not specified here machine defaults to the part
              * level machine object, else the project level machine
              * object. */
-            "machine": "/machines/sherline-lathe.json",
+            "machine": "sherline-lathe",
             "stock": {
                 "rotate": {"x":0, "y":0, "z":0},
                 "translate": {"x":0, "y":0, "z":0}
