@@ -2,12 +2,6 @@
     "part": "Upper suspension arm",
     "description": "L&R Front & Rear Upper suspension arm.",
 
-    "machine": "sherline-4axis",
-    "tool-table": {
-        "1": "4mm-end-mill",
-        "5": "4mm-end-mill"
-    },
-    
     "material": "aluminium-t6061",
     "stock": {
         "stock": "box",
@@ -15,28 +9,38 @@
         "p2": {"x":50, "y":50, "z":10}
     },
     
-    "operations": [
+    "jobs": [
         {
-            "name": "Face",
-            "operation": "face",
-            "face": {
-                "tool": 1,
-                "depth": 0.5
-            }
-        },
-        {
-            "name": "Lighten arm",
-            "operation": "pocket",
-            "pocket": {
-            }
-        },
-        {
-            "name": "Cut out",
-            "operation": "profile",
-            "profile": {
-                "path": "m164,283l40,-189l40,0l31,180l-30,1l-6,-54l-31,0l-11,59l-33,3z",
-                "depth": 9.5
-            }
+            "machine": "sherline-4axis",
+            "tool-table": {
+                "1": "4mm-end-mill",
+                "5": "4mm-end-mill"
+            },
+
+            "operations": [
+                {
+                    "name": "Face",
+                    "operation": "face",
+                    "face": {
+                        "tool": 1,
+                        "depth": 0.5
+                    }
+                },
+                {
+                    "name": "Lighten arm",
+                    "operation": "pocket",
+                    "pocket": {
+                    }
+                },
+                {
+                    "name": "Cut out",
+                    "operation": "profile",
+                    "profile": {
+                        "path": "m164,283l40,-189l40,0l31,180l-30,1l-6,-54l-31,0l-11,59l-33,3z",
+                        "depth": 9.5
+                    }
+                }
+            ]
         }
     ]
 }

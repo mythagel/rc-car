@@ -2,8 +2,6 @@
     "part": "wheel hub",
     "description": "4x Wheel hub.",
 
-    "machine": "sherline-lathe",
-    
     "material": "aluminium-t6061",
     "stock": {
         "stock": "cone",
@@ -13,26 +11,27 @@
         "r2": 50,
         "slices": 32
     },
-    
-    /* Each operation modifies the stock of the last operation.*/
-    "operations": [
+
+    "jobs": [
         {
-            "name": "Rough Turn",
-            /* If not specified here machine defaults to the part
-             * level machine object, else the project level machine
-             * object. */
             "machine": "sherline-lathe",
-            "stock": {
-                "rotate": {"x":0, "y":0, "z":0},
-                "translate": {"x":0, "y":0, "z":0}
-            },
-            "operation": "turn",
-            "turn": {
-                "tool": 5,
-            }
-        },
-        {
-            // something else
+
+            "operations": [
+                {
+                    "name": "Rough Turn",
+                    "stock": {
+                        "rotate": {"x":0, "y":0, "z":0},
+                        "translate": {"x":0, "y":0, "z":0}
+                    },
+                    "operation": "turn",
+                    "turn": {
+                        "tool": 5,
+                    }
+                },
+                {
+                    // something else
+                }
+            ]
         }
     ]
 }
