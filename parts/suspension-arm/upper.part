@@ -9,10 +9,10 @@
         "p2": {"x":50, "y":50, "z":10}
     },
     
-    "jobs": [
+    "setups": [
         {
             "machine": "sherline-4axis",
-            "tool-table": {
+            "tool_table": {
                 "1": "4mm-end-mill",
                 "5": "4mm-end-mill"
             },
